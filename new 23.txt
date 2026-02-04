@@ -1,0 +1,34 @@
+
+[VProf] 
+[VProf] -- Performance report --
+[VProf] Summary of 88830 frames and 123 1-second intervals.  (6861 frames excluded from analysis.)
+[VProf] FPS: Avg=725.7, P1=256.2
+[VProf] 
+[VProf]                       All frames         Active frames       1s max (all)      1s max (active)  
+[VProf]                         Avg    P99        N    Avg    P99      P50    P95        N    P50    P95
+[VProf] -------------------- ------ ------   ------ ------ ------   ------ ------   ------ ------ ------
+[VProf]           FrameTotal   1.38   3.90    88830   1.38   3.90     4.17   6.95      123   4.17   6.95
+[VProf]     Client Rendering   0.90   1.55    88830   0.90   1.55     1.34   4.73      123   1.34   4.73
+[VProf]       Frame Boundary   0.59   1.08    88830   0.59   1.08     1.06   2.32      123   1.06   2.32
+[VProf]    Client Simulation   0.18   0.92    88830   0.18   0.92     1.08   1.36      123   1.08   1.36
+[VProf] Present_RenderDevice   0.15   0.69    88830   0.15   0.69     0.57   1.78      123   0.57   1.78
+[VProf]  ClientSimulateFrame   0.14   0.29    88830   0.14   0.29     0.42   0.56      123   0.42   0.56
+[VProf]    Server Simulation   0.11   1.52     7833   1.22   1.77     1.64   2.63      123   1.64   2.63
+[VProf]          Server Game   0.09   1.35     7833   1.05   1.71     1.44   2.00      123   1.44   2.00
+[VProf]                  HUD   0.05   0.09    88830   0.05   0.09     0.18   0.25      123   0.18   0.25
+[VProf]   ClientSimulateTick   0.04   0.67     7833   0.50   0.81     0.81   1.08      123   0.81   1.08
+[VProf]         UserCommands   0.03   0.45     7833   0.37   0.66     0.54   0.87      123   0.54   0.87
+[VProf]     Server Animation   0.02   0.23     7833   0.19   0.34     0.34   0.41      123   0.34   0.41
+[VProf]                 NPCs   0.01   0.16     7833   0.13   0.18     0.19   0.50      123   0.19   0.50
+[VProf]       SoundOperators   0.01   0.18     8347   0.12   0.26     0.23   0.36      120   0.24   0.36
+[VProf]           Networking   0.01   0.12     7838   0.11   0.17     0.24   0.51      123   0.24   0.51
+[VProf]    PanoramaTextPango   0.00   0.00        1   0.39   0.39     0.00   0.00        1   0.39   0.39
+[VProf] 
+[VProf] VProfLite stopped.
+[BuildSparseShadowTree] CSparseShadowTreeGameSystem::GameShutdown
+[ResourceSystem] Failed loading resource "panorama/images/map_icons/screenshots/720p/de_canals_png.vtex_c" (ERROR_FILEOPEN: File not found)
+[Prediction] Prediction time (132.953125) is ahead of sim time (0.015625) by excessive amount (132.937500)?  Clamping offset
+[Prediction] Prediction time (132.953125) is ahead of sim time (0.015625) by excessive amount (132.937500)?  Clamping offset
+[Prediction] Prediction time (132.953125) is ahead of sim time (1.062500) by excessive amount (131.890625)?  Clamping offset
+[Prediction] Prediction time (132.953125) is ahead of sim time (1.078125) by excessive amount (131.875000)?  Clamping offset
+[Prediction] Resetting prediction state because we received a full update

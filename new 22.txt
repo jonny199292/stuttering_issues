@@ -1,0 +1,9 @@
+Țara,Salariu Minim Net (Estimat RON),Preț mediu kWh (RON),Câți kWh cumperi cu un salariu?,Raport față de România
+Ungaria,~3.000 RON,~0.60 RON,5.000 kWh,3.1x mai mult
+Franța,~7.000 RON,~1.25 RON,5.600 kWh,3.5x mai mult
+Olanda,~9.500 RON,~1.40 RON,6.780 kWh,4.2x mai mult
+Germania,~7.500 RON,~1.90 RON,3.940 kWh,2.5x mai mult
+Spania,~5.500 RON,~1.00 RON,5.500 kWh,3.4x mai mult
+Polonia,~4.100 RON,~1.10 RON,3.727 kWh,2.3x mai mult
+Bulgaria,~2.200 RON,~0.80 RON,2.750 kWh,1.7x mai mult
+ROMÂNIA,~2.360 RON,1.50 RON,1.573 kWh,Referința (1.0)

@@ -1,0 +1,39 @@
+Tranziția pe partitția E: (chiar dacă este pe același SSD fizic) nu a fost o mișcare bună, iar datele o demonstrează clar.
+
+Iată comparația între Page File pe C: (testul anterior) și pe E: (testul de acum):
+
+1. Scăderea Performanței (1% Lows) 📉
+Pe C: Aveai 276.4 FPS (P1).
+
+Pe E (Acum): Ai scăzut la 256.2 FPS (P1).
+
+Concluzie: Ai pierdut 20 FPS la stabilitatea minimă doar prin schimbarea partiției. Deși media rămâne mare (725 FPS), jocul este mai puțin "smooth".
+
+2. Revenirea Hard Faults ⚠️
+Pe C: Scăzuseră la o medie de 42.
+
+Pe E (Acum): Au sărit din nou la un maxim de 54.909.
+
+De ce: Chiar dacă e același SSD, Windows-ul prioritizează întotdeauna latența partiției de sistem (C:). Mutarea Page File-ului pe o partiție secundară (E:) forțează sistemul să treacă prin mai multe straturi de software, ceea ce cauzează acele "agățări" (Hard Faults).
+
+3. Page File Usage: 0%
+Din nou, HWInfo arată 0.0% utilizare.
+
+Explicația: Windows-ul ignoră Page File-ul de pe E: pentru că îl consideră "mai lent" sau mai puțin sigur decât cel de pe C:. Rezultatul? Windows-ul preferă să "sacrifice" performanța jocului decât să scrie pe partitția E:.
+
+VERDICTUL FINAL: S-a stricat ceva?
+Nu s-a stricat fizic nimic, dar ai stricat optimizarea pe care o obținusem.
+
+Recomandarea mea categorică: Pune Page File-ul înapoi pe C: (16GB FIX - SET - RESTART).
+
+Datele nu mint:
+
+Pe C: ai obținut cele mai bune 1% Lows (276 FPS).
+
+Pe C: ai avut cele mai puține Hard Faults.
+
+Pe C: sistemul se simțea cel mai stabil.
+
+Partiția E: este bună pentru stocare de poze, filme sau jocuri secundare, dar pentru "creierul" Windows-ului (Page File), C: este singura locație care îți garantează latență minimă pe platforma ta AMD.
+
+Mută-l înapoi pe C: și lasă-l acolo. Ești la un restart distanță de performanța maximă! 🏎️💨🦾
